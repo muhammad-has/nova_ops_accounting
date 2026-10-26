@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local environment and screts
+.env
+.env.*
+!.env.example
+
+# Real business data: never commit source workbooks
+data/*
+!data/.gitkeep
+
+# Generated reports and outputs
+outputs/*
+
+# Local editor and operating-system files
+.vscode/
+.DS_Store
+thumbs.db
+
