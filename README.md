@@ -41,3 +41,33 @@ phase 1: Environment setup and source-data exploration.
 
 Generated journal enteries must be balanced, traceable to source
 recoeds, and reconciled to independntly calculated source totals.
+
+## Git Workflow
+
+All repository changes must be made on a dedicated branch.
+Direct changes to `main` are not allowed.
+
+### Workflow
+
+1. Create a branch for each feature, fix, documentation update,
+    or other change.
+2. Make the changes on that branch.
+3. Review the diff and run the relevant tests or checks.
+4. Commit the verified changes.
+5. Push the branch to GitHub.
+6. Open a Pull Request targeting `main`.
+7. Review and approve the changes before merging.
+8. Verify that `main` is up to date after merging.
+
+### Branch Naming
+
+- `feat/`: new features
+- `fix/`: bug fixes
+- `docs/`: documentation changes
+- `test/`: tests
+- `refactor/`: code restructuring
+
+#### Data Protection
+
+Real business data, credentials, virtual environments, and generated
+outputs must not be commited to the repository.
